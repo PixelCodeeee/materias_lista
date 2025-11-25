@@ -35,6 +35,8 @@ public class MateriaService {
         materia.setCodigo(materiaDetails.getCodigo());
         materia.setCuatrimestre(materiaDetails.getCuatrimestre());
         materia.setActivo(materiaDetails.isActivo());
+        // Actualizar relación con ProgramaEducativo si se provee
+        materia.setProgramaEducativo(materiaDetails.getProgramaEducativo());
 
         return materiaRepository.save(materia);
     }

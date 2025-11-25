@@ -10,5 +10,7 @@ public class MateriaDto {
     private String codigo;
     private boolean activo;
     private String cuatrimestre;
+    private Long programaId;
+    private String programaNombre;
 
 }
