@@ -1,4 +1,4 @@
-package com.pixelcode.materiascrud;
+package com.pixelcode.materias_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.pixelcode.materiascrud.dto;
+package com.pixelcode.materias_service.dto;
 
 import lombok.Data;
 
